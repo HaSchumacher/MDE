@@ -6,7 +6,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/SampleSolution/SampleSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/external/external.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/pluginSolution/pluginSolution.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/../Project/languages/AttributedGraphs/AttributedGraphs.mpl" folder="" />
     </projectModules>
   </component>
 </project>
