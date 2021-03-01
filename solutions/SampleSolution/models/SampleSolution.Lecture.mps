@@ -1052,6 +1052,20 @@
         <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
+    <node concept="3_Gd5r" id="3cqfWA2nmVM" role="2_wlaX">
+      <property role="3_Gd5q" value="getOptions" />
+      <property role="3_Gd5o" value="options" />
+      <property role="3_Gd5t" value="Get the Options for a User." />
+      <node concept="3_Gf45" id="3cqfWA2nmX6" role="3_Gf4o">
+        <property role="TrG5h" value="u" />
+        <node concept="BxOjD" id="3cqfWA2nmXa" role="BBx2O">
+          <ref role="BxOjI" node="7CmH0yR3Sr3" resolve="User" />
+        </node>
+      </node>
+      <node concept="BxOjD" id="3cqfWA2nmXd" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+    </node>
     <node concept="3_Gd4C" id="7CmH0yR3SJz" role="3_G82M">
       <property role="TrG5h" value="BookingError" />
       <property role="3_Gd4H" value="An error occured during booking. Ether there is already booking or the given Reservation is wrong." />
