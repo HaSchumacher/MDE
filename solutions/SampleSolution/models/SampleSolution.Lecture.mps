@@ -909,9 +909,6 @@
           <ref role="BxOjI" node="7CmH0yR3So_" resolve="Movie" />
         </node>
       </node>
-      <node concept="BxOjD" id="7CmH0yR3SO_" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
-      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SOB" role="2_wlaX">
       <property role="3_Gd5q" value="addFilmprojection" />
