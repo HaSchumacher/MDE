@@ -718,6 +718,22 @@
     </node>
     <node concept="3_Gd56" id="7CmH0yR3Sr3" role="3_Gd4Z">
       <property role="TrG5h" value="User" />
+      <node concept="2_wlaR" id="4NsDz7L05vf" role="2_wlle">
+        <property role="3_FBD6" value="name" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+      <node concept="2_wlaR" id="4NsDz7L05vh" role="2_wlle">
+        <property role="3_FBD6" value="email" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+      <node concept="2_wlaR" id="4NsDz7L05vk" role="2_wlle">
+        <property role="3_FBD6" value="username" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+      <node concept="2_wlaR" id="4NsDz7L05vo" role="2_wlle">
+        <property role="3_FBD6" value="password" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
     </node>
     <node concept="3_FBDc" id="7CmH0yR3SG9" role="3_Gd4Z">
       <property role="TrG5h" value="User_Role" />
@@ -807,9 +823,6 @@
         <node concept="BxOjD" id="7CmH0yR3SKt" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3SoP" resolve="Reservation" />
         </node>
-      </node>
-      <node concept="BxOjD" id="7CmH0yR3SKw" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SKA" role="2_wlaX">
@@ -928,9 +941,6 @@
           <ref role="BxOjI" node="7CmH0yR3Son" resolve="Filmprojection" />
         </node>
       </node>
-      <node concept="BxOjD" id="7CmH0yR3SQz" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
-      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SQ_" role="2_wlaX">
       <property role="3_Gd5q" value="addCinemahall" />
@@ -966,9 +976,6 @@
         <node concept="BxOjD" id="7CmH0yR3ST3" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3SnN" resolve="Cinemahall" />
         </node>
-      </node>
-      <node concept="BxOjD" id="7CmH0yR3ST6" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3ST8" role="2_wlaX">
@@ -1027,9 +1034,6 @@
           <ref role="BxOjI" node="7CmH0yR3Srv" resolve="Role" />
         </node>
       </node>
-      <node concept="BxOjD" id="7CmH0yR3SYo" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
-      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SYq" role="2_wlaX">
       <property role="3_Gd5q" value="deleteRoleFromUser" />
@@ -1048,9 +1052,6 @@
           <ref role="BxOjI" node="7CmH0yR3Srv" resolve="Role" />
         </node>
       </node>
-      <node concept="BxOjD" id="7CmH0yR3SZP" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
-      </node>
     </node>
     <node concept="3_Gd5r" id="3cqfWA2nmVM" role="2_wlaX">
       <property role="3_Gd5q" value="getOptions" />
@@ -1068,11 +1069,11 @@
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SJz" role="3_G82M">
       <property role="TrG5h" value="BookingError" />
-      <property role="3_Gd4H" value="An error occured during booking. Ether there is already booking or the given Reservation is wrong." />
+      <property role="3_Gd4H" value="An error occured during booking. Either there is already a booking or the given reservation is wrong." />
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SK8" role="3_G82M">
       <property role="TrG5h" value="ReservationError" />
-      <property role="3_Gd4H" value="The Reservation didn't pass. The given Category is full for this Filmprojection." />
+      <property role="3_Gd4H" value="The reservation was not possible. The given category is full for this filmprojection." />
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SKy" role="3_G82M">
       <property role="TrG5h" value="DeleteError" />
@@ -1080,15 +1081,15 @@
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SLy" role="3_G82M">
       <property role="TrG5h" value="RegisterError" />
-      <property role="3_Gd4H" value="The User you want to register is already in the System. If you forget your Password please follow the instructions in the given Section." />
+      <property role="3_Gd4H" value="The user you want to register is already in the System. If you forgot your password please follow the instructions in the given section." />
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SMl" role="3_G82M">
       <property role="TrG5h" value="LoginError" />
-      <property role="3_Gd4H" value="Something went wrong. Please Check your Credentials." />
+      <property role="3_Gd4H" value="Something went wrong. Please check your credentials." />
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SRT" role="3_G82M">
       <property role="TrG5h" value="CinemaHallCreation" />
-      <property role="3_Gd4H" value="The Cinemahall is already given." />
+      <property role="3_Gd4H" value="The Cinemahall you tried to create is already given." />
     </node>
   </node>
 </model>
