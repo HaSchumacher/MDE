@@ -611,33 +611,23 @@
     </node>
     <node concept="3_Gd56" id="7CmH0yR3Sob" role="3_Gd4Z">
       <property role="TrG5h" value="PriceCategory" />
+      <node concept="2_wlaR" id="4NsDz7L05vv" role="2_wlle">
+        <property role="3_FBD6" value="price" />
+        <property role="2zC27X" value="1axOPyL0vao/PartialMap" />
+        <ref role="3_FBDr" node="5H4ykBYMXjV" resolve="Integer" />
+      </node>
     </node>
     <node concept="3_Gd56" id="7CmH0yR3SpP" role="3_Gd4Z">
       <property role="TrG5h" value="Front" />
       <property role="3_Gd55" value="true" />
-      <node concept="2_wlaR" id="7CmH0yR3T2A" role="2_wlle">
-        <property role="3_FBD6" value="frontprice" />
-        <property role="2zC27X" value="1axOPyL0vao/PartialMap" />
-        <ref role="3_FBDr" node="5H4ykBYMXjV" resolve="Integer" />
-      </node>
     </node>
     <node concept="3_Gd56" id="7CmH0yR3Sqf" role="3_Gd4Z">
       <property role="TrG5h" value="Middle" />
       <property role="3_Gd55" value="true" />
-      <node concept="2_wlaR" id="7CmH0yR3T2E" role="2_wlle">
-        <property role="3_FBD6" value="middleprice" />
-        <property role="2zC27X" value="1axOPyL0vao/PartialMap" />
-        <ref role="3_FBDr" node="5H4ykBYMXjV" resolve="Integer" />
-      </node>
     </node>
     <node concept="3_Gd56" id="7CmH0yR3SqD" role="3_Gd4Z">
       <property role="TrG5h" value="Back" />
       <property role="3_Gd55" value="true" />
-      <node concept="2_wlaR" id="7CmH0yR3T2G" role="2_wlle">
-        <property role="3_FBD6" value="backprice" />
-        <property role="2zC27X" value="1axOPyL0vao/PartialMap" />
-        <ref role="3_FBDr" node="5H4ykBYMXjV" resolve="Integer" />
-      </node>
     </node>
     <node concept="3_Gd56" id="7CmH0yR3Son" role="3_Gd4Z">
       <property role="TrG5h" value="Filmprojection" />
