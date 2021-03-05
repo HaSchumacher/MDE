@@ -743,9 +743,33 @@
       <property role="TrG5h" value="Customer" />
       <property role="3_Gd55" value="true" />
     </node>
+    <node concept="3_Gd56" id="3zmUnbkNLow" role="3_Gd4Z">
+      <property role="TrG5h" value="Unknown" />
+      <property role="3_Gd55" value="true" />
+    </node>
     <node concept="3_Gd56" id="7CmH0yR3Sst" role="3_Gd4Z">
       <property role="TrG5h" value="Admin" />
       <property role="3_Gd55" value="true" />
+    </node>
+    <node concept="3_Gd56" id="3zmUnbkNLjQ" role="3_Gd4Z">
+      <property role="TrG5h" value="Security" />
+      <property role="3_Gd55" value="true" />
+      <node concept="2_wlaR" id="3zmUnbkNLlg" role="2_wlle">
+        <property role="3_FBD6" value="securityMap" />
+        <property role="2zC27X" value="1axOPyL0vao/PartialMap" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+    </node>
+    <node concept="3_Gd56" id="3zmUnbkNLml" role="3_Gd4Z">
+      <property role="TrG5h" value="KeyPair" />
+      <node concept="2_wlaR" id="3zmUnbkNLnn" role="2_wlle">
+        <property role="3_FBD6" value="privateKey" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+      <node concept="2_wlaR" id="3zmUnbkNLnp" role="2_wlle">
+        <property role="3_FBD6" value="publicKey" />
+        <ref role="3_FBDr" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
     </node>
     <node concept="3_F_VF" id="7CmH0yR3Sx6" role="3_F_jM">
       <ref role="3_F_VE" node="7CmH0yR3Sob" resolve="PriceCategory" />
@@ -767,6 +791,10 @@
       <ref role="3_F_VE" node="7CmH0yR3Srv" resolve="Role" />
       <ref role="3_F_VC" node="7CmH0yR3SrX" resolve="Customer" />
     </node>
+    <node concept="3_F_VF" id="3zmUnbkNLp_" role="3_F_jM">
+      <ref role="3_F_VE" node="7CmH0yR3Srv" resolve="Role" />
+      <ref role="3_F_VC" node="3zmUnbkNLow" resolve="Unknown" />
+    </node>
     <node concept="3_Gd5r" id="7CmH0yR3SJg" role="2_wlaX">
       <property role="3_Gd5q" value="book" />
       <property role="3_Gd5o" value="book" />
@@ -777,6 +805,9 @@
         <node concept="BxOjD" id="7vufARkElqJ" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3SoP" resolve="Reservation" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLbF" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3Sp7" resolve="Booking" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SJ_" role="2_wlaX">
@@ -802,6 +833,9 @@
           <ref role="BxOjI" node="7CmH0yR3Sob" resolve="PriceCategory" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLbI" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3SoP" resolve="Reservation" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SKb" role="2_wlaX">
       <property role="3_Gd5q" value="cancelReservation" />
@@ -813,6 +847,9 @@
         <node concept="BxOjD" id="7CmH0yR3SKt" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3SoP" resolve="Reservation" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLbK" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SKA" role="2_wlaX">
@@ -844,6 +881,9 @@
           <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLbO" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3Sr3" resolve="User" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SLB" role="2_wlaX">
       <property role="3_Gd5q" value="login" />
@@ -861,6 +901,15 @@
         <node concept="BxOjD" id="7CmH0yR3SMg" role="BBx2O">
           <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
         </node>
+      </node>
+      <node concept="3_Gf45" id="3zmUnbkNLrl" role="3_Gf4o">
+        <property role="TrG5h" value="id" />
+        <node concept="BxOjD" id="3zmUnbkNLrt" role="BBx2O">
+          <ref role="BxOjI" node="5H4ykBYMXjV" resolve="Integer" />
+        </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLbR" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3Sr3" resolve="User" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SMr" role="2_wlaX">
@@ -887,6 +936,9 @@
           <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLbT" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3So_" resolve="Movie" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SNP" role="2_wlaX">
       <property role="3_Gd5q" value="deleteMovie" />
@@ -898,6 +950,9 @@
         <node concept="BxOjD" id="7CmH0yR3SOy" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3So_" resolve="Movie" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLbV" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SOB" role="2_wlaX">
@@ -916,6 +971,9 @@
           <ref role="BxOjI" node="7CmH0yR3So_" resolve="Movie" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLbX" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3Son" resolve="Filmprojection" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SPD" role="2_wlaX">
       <property role="3_Gd5q" value="deleteFilmprojection" />
@@ -927,6 +985,9 @@
         <node concept="BxOjD" id="7CmH0yR3SQw" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3Son" resolve="Filmprojection" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLbZ" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SQ_" role="2_wlaX">
@@ -952,6 +1013,9 @@
           <ref role="BxOjI" node="5H4ykBYMXjV" resolve="Integer" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLc1" role="BBx3f">
+        <ref role="BxOjI" node="7CmH0yR3SnN" resolve="Cinemahall" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SS0" role="2_wlaX">
       <property role="3_Gd5q" value="deleteCinemahall" />
@@ -963,6 +1027,9 @@
         <node concept="BxOjD" id="7CmH0yR3ST3" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3SnN" resolve="Cinemahall" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLc3" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3ST8" role="2_wlaX">
@@ -980,6 +1047,9 @@
         <node concept="BxOjD" id="7CmH0yR3SUo" role="BBx2O">
           <ref role="BxOjI" node="5H4ykBYMXjV" resolve="Integer" />
         </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLc5" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
       </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SUr" role="2_wlaX">
@@ -1021,6 +1091,9 @@
           <ref role="BxOjI" node="7CmH0yR3Srv" resolve="Role" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLcb" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="7CmH0yR3SYq" role="2_wlaX">
       <property role="3_Gd5q" value="deleteRoleFromUser" />
@@ -1039,18 +1112,45 @@
           <ref role="BxOjI" node="7CmH0yR3Srv" resolve="Role" />
         </node>
       </node>
+      <node concept="BxOjD" id="3zmUnbkNLc9" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
+      </node>
     </node>
     <node concept="3_Gd5r" id="3cqfWA2nmVM" role="2_wlaX">
       <property role="3_Gd5q" value="getOptions" />
       <property role="3_Gd5o" value="options" />
       <property role="3_Gd5t" value="Get the Options for a User." />
       <node concept="3_Gf45" id="3cqfWA2nmX6" role="3_Gf4o">
+        <property role="TrG5h" value="r" />
+        <node concept="BxOjD" id="3zmUnbkNLce" role="BBx2O">
+          <ref role="BxOjI" node="7CmH0yR3Srv" resolve="Role" />
+        </node>
+      </node>
+      <node concept="BxOjD" id="3zmUnbkNLch" role="BBx3f">
+        <property role="BFjhQ" value="true" />
+        <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
+      </node>
+    </node>
+    <node concept="3_Gd5r" id="3zmUnbkNLfi" role="2_wlaX">
+      <property role="3_Gd5q" value="checkPriviliges" />
+      <property role="3_Gd5o" value="checkRoles" />
+      <property role="3_Gd5t" value="Check if the User has the role to use the Command." />
+      <node concept="3_Gf45" id="3zmUnbkNLgM" role="3_Gf4o">
         <property role="TrG5h" value="u" />
-        <node concept="BxOjD" id="3cqfWA2nmXa" role="BBx2O">
+        <node concept="BxOjD" id="3zmUnbkNLgQ" role="BBx2O">
           <ref role="BxOjI" node="7CmH0yR3Sr3" resolve="User" />
         </node>
       </node>
-      <node concept="BxOjD" id="3cqfWA2nmXd" role="BBx3f">
+      <node concept="BxOjD" id="3zmUnbkNLgT" role="BBx3f">
+        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
+      </node>
+    </node>
+    <node concept="3_Gd5r" id="3zmUnbkNLpG" role="2_wlaX">
+      <property role="3_Gd5q" value="generatePublicKey" />
+      <property role="3_Gd5o" value="gPublicKey" />
+      <property role="3_Gd5t" value="get for login or register a public key." />
+      <node concept="BxOjD" id="3zmUnbkNLri" role="BBx3f">
+        <property role="BFjhQ" value="true" />
         <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
       </node>
     </node>
