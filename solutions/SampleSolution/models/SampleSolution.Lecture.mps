@@ -669,6 +669,14 @@
     </node>
     <node concept="3_Gd56" id="7CmH0yR3SoP" role="3_Gd4Z">
       <property role="TrG5h" value="Reservation" />
+      <node concept="2_wlaR" id="29FMOO0mKRl" role="2_wlle">
+        <property role="3_FBD6" value="deleted" />
+        <ref role="3_FBDr" node="5H4ykBYMXkd" resolve="Boolean" />
+      </node>
+      <node concept="2_wlaR" id="29FMOO0mKRn" role="2_wlle">
+        <property role="3_FBD6" value="booked" />
+        <ref role="3_FBDr" node="5H4ykBYMXkd" resolve="Boolean" />
+      </node>
     </node>
     <node concept="3_FBDc" id="7CmH0yR3S_p" role="3_Gd4Z">
       <property role="TrG5h" value="Reservation_Fp" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="c9873uy68c5yvvaogig4ah3vnyq1q9f">
+<product version="3" modelHash="6pd9anox6wgrb6x4ytwl4f41id9rlxz">
   <files names="CinemaService.tst:FileService.tst:FileServiceWithContainment.tst:KinoApp.tst:RelDemo.tst:Validation.tst:baseTypes.tst" />
 </product>
 
