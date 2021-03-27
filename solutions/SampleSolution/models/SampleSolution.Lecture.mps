@@ -1139,20 +1139,6 @@
         <ref role="BxOjI" node="5H4ykBYMXjQ" resolve="String" />
       </node>
     </node>
-    <node concept="3_Gd5r" id="3zmUnbkNLfi" role="2_wlaX">
-      <property role="3_Gd5q" value="checkPriviliges" />
-      <property role="3_Gd5o" value="checkRoles" />
-      <property role="3_Gd5t" value="Check if the User has the role to use the Command." />
-      <node concept="3_Gf45" id="3zmUnbkNLgM" role="3_Gf4o">
-        <property role="TrG5h" value="u" />
-        <node concept="BxOjD" id="3zmUnbkNLgQ" role="BBx2O">
-          <ref role="BxOjI" node="7CmH0yR3Sr3" resolve="User" />
-        </node>
-      </node>
-      <node concept="BxOjD" id="3zmUnbkNLgT" role="BBx3f">
-        <ref role="BxOjI" node="5H4ykBYMXkd" resolve="Boolean" />
-      </node>
-    </node>
     <node concept="3_Gd5r" id="3zmUnbkNLpG" role="2_wlaX">
       <property role="3_Gd5q" value="generatePublicKey" />
       <property role="3_Gd5o" value="gPublicKey" />
