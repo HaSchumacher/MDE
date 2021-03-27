@@ -1002,7 +1002,7 @@
       <property role="3_Gd5q" value="addCinemahall" />
       <property role="3_Gd5o" value="addCinemahall" />
       <property role="3_Gd5t" value="Add a Cinemahall to the CinemaService." />
-      <ref role="3NuQEv" node="7CmH0yR3SRT" resolve="CinemaHallCreation" />
+      <ref role="3NuQEv" node="7CmH0yR3SRT" resolve="CinemaHallCreationError" />
       <node concept="3_Gf45" id="7CmH0yR3SRs" role="3_Gf4o">
         <property role="TrG5h" value="name" />
         <node concept="BxOjD" id="7CmH0yR3SRw" role="BBx2O">
@@ -1169,8 +1169,8 @@
       <property role="3_Gd4H" value="Something went wrong. Please check your credentials." />
     </node>
     <node concept="3_Gd4C" id="7CmH0yR3SRT" role="3_G82M">
-      <property role="TrG5h" value="CinemaHallCreation" />
-      <property role="3_Gd4H" value="The Cinemahall you tried to create is already given." />
+      <property role="TrG5h" value="CinemaHallCreationError" />
+      <property role="3_Gd4H" value="The Cinemahall you tried to create is already given or the given parameters are not valid." />
     </node>
   </node>
 </model>
